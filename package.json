@@ -1,0 +1,10 @@
+{
+  "name": "simple-vue",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "vue": "latest"
+  }
+}

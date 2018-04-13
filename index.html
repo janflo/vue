@@ -1,0 +1,21 @@
+<div id="app">
+	{{ message }}
+</div>
+<hr>
+<div id="app-6">
+	<p>{{ message }}{{counter}}</p>
+	<input v-model="message">
+</div>
+<hr>
+<div id="app1">
+	<button v-on:click="addOne">Dodaj {{counter}}</button>
+	<br>
+	<p>Button został już tyle razy klepnięty: {{ counter  }}</p>
+<br>
+<button v-on:click="++fSize">Więcej px</button>
+<button v-on:click="--fSize">Mniej px</button>
+
+<p v-bind:style="{ fontSize: fSize + 'px' }">
+	Obecnie font ma: {{ fSize }} px
+</p>
+</div>
